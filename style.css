@@ -302,6 +302,16 @@ Overlay
     z-index: 3;
 }
 
+.stop-scrolling {
+    overflow: hidden;
+}
+
+/* Hide mobile main menu items*/
+
+.mobile-only {
+    display: none;
+}
+
 /* 
 
 Animations 
@@ -342,7 +352,7 @@ MEDIA QUERIES
 
 */
 
-@media(max-width: 1060px){
+@media(max-width: 1200px){
     .desktop-main-menu ul li a{
         font-size: 14px;
     }
@@ -352,7 +362,7 @@ MEDIA QUERIES
     }
 }
 
-@media(max-width: 960px){
+@media(max-width: 1060px){
     .desktop-main-menu{
         display: none;
     }
@@ -361,6 +371,12 @@ MEDIA QUERIES
         width: 150px;
         margin: auto;
     }
+
+    /* Show main mobile items */
+    .mobile-only {
+        display: block;
+    }
+
 }
 
 @media(max-width: 600px){
