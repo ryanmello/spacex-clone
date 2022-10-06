@@ -371,6 +371,14 @@ Overlay
     background-image: url(img/falcon-9.webp);
 }
 
+.bg-falcon-heavy{
+    background-image: url(img/falcon-heavy.webp);
+}
+
+.bg-dragon{
+    background-image: url(img/dragon.webp);
+}
+
 .section-animate{
     animation: fadeIn 2s ease-in-out;
 }
@@ -382,6 +390,7 @@ Overlay
     transform: translate(-50%, -50%);
     text-transform: uppercase;
     text-align: center;
+    width: 80%;
 }
 
 .section-inner-center h3 {
