@@ -84,6 +84,10 @@ HEADER / NAV BAR
     transform-origin: left center;
 }
 
+a.not-allowed:hover{
+    cursor: not-allowed;
+}
+
 /*
 
 SECTION-A
@@ -409,7 +413,7 @@ Overlay
 }
 
 .stats div h4 {
-    font-size: 24px;
+    font-size: 36px;
     font-weight: 300;
 }
 
@@ -488,6 +492,26 @@ MEDIA QUERIES
         display: block;
     }
 
+    .section-inner-center h3 {
+        font-size: 75px;
+    }
+
+    .section-inner-center p {
+        font-size: 14px;
+    }
+
+    .stats .counter{
+        font-size: 120px;
+    }
+
+    .stats div h4{
+        font-size: 16px;
+    }
+
+    .stats div{
+        margin: 40px;
+    }
+
 }
 
 @media(max-width: 600px){
@@ -513,6 +537,15 @@ MEDIA QUERIES
 
     footer ul li{
         margin-right: 15px;
+    }
+
+    .section-inner-center h3 {
+        font-size: 48px;
+    }
+
+    /* Stats */
+    .stats{
+        flex-direction: column;
     }
 }
 
